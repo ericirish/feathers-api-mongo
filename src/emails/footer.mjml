@@ -1,0 +1,14 @@
+<mj-wrapper border="1px solid #dfe6ea" padding="1px 10px 1px 10px" background-color="#001E61">
+  <mj-section>
+    <mj-column>
+      <mj-text align="center"
+        padding="0px 10px 0px 10px"
+        color="#FFFFFF"
+        font-size="12px"
+        line-height="18px"
+        font-family="Helvetica Neue">
+        This communication was provided by </a>
+      </mj-text>
+    </mj-column>
+  </mj-section>
+</mj-wrapper>
