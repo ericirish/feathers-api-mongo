@@ -1,5 +1,5 @@
 // Initializes the `emails` service on path `/emails`
-const { Emailer } = require('./mailer.class')
+const { Mailer } = require('./mailer.class')
 const hooks = require('./mailer.hooks')
 
 module.exports = (app) => {
@@ -15,7 +15,7 @@ module.exports = (app) => {
   }
 
   // Initialize our service with any options it requires
-  app.use('/mailer', new Emailer(options))
+  app.use('/mailer', new Mailer(options))
 
   // Get our initialized service so that we can register hooks
   const service = app.service('mailer')
